@@ -1,7 +1,28 @@
 aid: foreman
 name: Foreman
-description: Foreman is a company surfaced as a portfolio company of y-combinator and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Foreman (foreman.co) is an all-in-one, AI-powered project management and estimating
+  platform built for construction contractors and the trades. It consolidates the full
+  lifecycle of a construction job into one place: AI-assisted blueprint takeoffs and
+  scoped estimates, branded proposals and e-signature, invoicing and online payments
+  with QuickBooks sync, scheduling with critical-path task dependencies, and centralized
+  document management for plans, permits, photos, change orders, and RFI communications.
+  A Y Combinator (Winter 2026) company founded by Nolan Rossi, Foreman aims to keep
+  contractors on the job site instead of behind a desk. As an early-stage product it
+  currently exposes no public developer API; this profile was surfaced as a Y Combinator
+  portfolio lead and enriched with published company identity and link properties.
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/foreman.png
 url: https://raw.githubusercontent.com/api-evangelist/foreman/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,12 +32,53 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
+- Construction
+- Project Management
+- Estimating
+- Invoicing
+- Scheduling
+- Contractors
+- Artificial Intelligence
+common:
+- url: https://foreman.co
+  type: Website
+- url: https://foreman.co/features
+  type: Documentation
+- url: https://foreman.co/guides
+  type: GettingStarted
+- url: https://foreman.co/pricing
+  type: Pricing
+- url: https://foreman.co/login?mode=register
+  type: SignUp
+- url: https://foreman.co/login
+  type: Login
+- url: https://foreman.co/blog
+  type: Blog
+- url: mailto:hello@foreman.co
+  type: Support
+- url: https://foreman.co/terms
+  type: TermsOfService
+- url: https://foreman.co/privacy
+  type: PrivacyPolicy
+- url: https://x.com/foremanco
+  type: Twitter
+- url: https://www.linkedin.com/company/foremanco
+  type: LinkedIn
+- url: https://www.facebook.com/groups/foremanpros/
+  type: Facebook
+- url: https://www.ycombinator.com/companies/foreman
+  type: YCombinator
 apis: []
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
