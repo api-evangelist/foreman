@@ -1,0 +1,38 @@
+# Pricing transcribed from the provider's own page — see provenance. Numbers are quoted, not derived.
+generated: '2026-10-07'
+method: searched
+source: https://foreman.co/pricing
+sources:
+- https://foreman.co/pricing
+provenance:
+  tool: all/0-working/economics/harvest_pricing.py
+  run: 20261007T104522
+  grounding: every price_text was found verbatim in the fetched page text
+audience: business-product
+pricing_basis: per-seat
+delivery:
+  delivery: managed
+  method: page
+  read: '2026-10-07'
+published: true
+note: Flat monthly platform fee plus per-seat add-on; page also mentions a 12-month term billed quarterly.
+  FAQ references quotes for larger companies but no numbers given.
+plan_count: 2
+currency: USD
+plans:
+- name: Foreman platform
+  price_text: $249/mo plus $20 per additional seat
+  currency: USD
+  period: month
+  unit: base plus per additional seat
+  included_quota: Whole platform, unlimited projects, free clients and subs, unlimited AI assistant, onboarding/training/support
+  overage: $20 per additional seat
+- name: 30-day trial
+  price_text: $0 today
+  price: 0
+  currency: USD
+  period: one-time
+  unit: trial
+  included_quota: 30-day free trial, then 30-day money-back
+rate_limit_statements:
+- No credit limits, no metering
