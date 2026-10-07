@@ -54,6 +54,8 @@ tags:
 - Contractors
 - Artificial Intelligence
 common:
+- type: Plans
+  url: plans/foreman-plans-pricing.yml
 - url: https://foreman.co
   type: Website
 - url: https://foreman.co/features
