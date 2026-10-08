@@ -36,3 +36,28 @@ plans:
   included_quota: 30-day free trial, then 30-day money-back
 rate_limit_statements:
 - No credit limits, no metering
+x-canonical:
+  generated: '2026-10-08'
+  vocabulary: all/0-working/economics/plans-canonical.yml
+  models:
+  - free
+  - metered
+  units:
+  - seat
+  plans:
+  - name: Foreman platform
+    access: other
+    model: metered
+    model_how: derived
+    units:
+    - seat
+    periods:
+    - month
+  - name: 30-day trial
+    access: other
+    model: free
+    model_how: derived
+    units:
+    - other
+    periods:
+    - one-time
